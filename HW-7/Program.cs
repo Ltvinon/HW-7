@@ -23,8 +23,8 @@ using BenchmarkDotNet.Running;
             str = new string[number];
             for (int i = 0; i < number; i++)
             {
-                str[i] = "Hillel";
-               // str[i] = new string('a', 2000);
+                //str[i] = "Hillel";
+                str[i] = new string('a', 2000);
             }
         }
 
